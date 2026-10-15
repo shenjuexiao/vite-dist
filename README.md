@@ -1,2 +1,1 @@
-# vite-dist
-vitepress-dist
+# vite-dist.shenjuexiao.com
