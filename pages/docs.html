@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>文档 · Vite 工具集</title>
+  <script type="module" crossorigin src="/assets/docs-6RdMo-ax.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/layout-DOv8jJj5.js">
+  <link rel="stylesheet" crossorigin href="/assets/layout-BtC5OaMG.css">
+</head>
+<body>
+  <div class="app">
+    <main class="main-content">
+      <section class="content-section">
+        <div class="section-title">
+          📖 文档
+          <span>docs</span>
+        </div>
+        <h3 style="margin: 1rem 0 0.5rem;">项目简介</h3>
+        <p style="color:#475569;">
+          本项目演示 Vite 多页面（MPA）架构：每个页面拥有独立 HTML 入口，
+          页眉与页脚通过 <code>layout.js</code> 统一注入，实现一次编写、多处复用。
+        </p>
+
+        <h3 style="margin: 1.5rem 0 0.5rem;">目录结构</h3>
+        <pre style="background:#f1f5f9; padding:1rem; border-radius:0.75rem; overflow:auto; font-size:0.85rem;">
+project/
+├── index.html
+├── package.json
+├── vite.config.js
+├── src/
+│   ├── header.js
+│   ├── footer.js
+│   ├── layout.js
+│   ├── style.css
+│   └── main.js
+└── pages/
+    ├── tools.html / tools.js
+    ├── docs.html  / docs.js
+    └── about.html / about.js
+        </pre>
+
+        <h3 style="margin: 1.5rem 0 0.5rem;">开发命令</h3>
+        <pre style="background:#f1f5f9; padding:1rem; border-radius:0.75rem; overflow:auto; font-size:0.85rem;">
+npm install
+npm run dev      # 本地开发
+npm run build    # 生产构建
+npm run preview  # 预览构建结果
+        </pre>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
