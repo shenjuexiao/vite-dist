@@ -1,0 +1,2 @@
+# vite-dist
+vitepress-dist
